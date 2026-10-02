@@ -1,10 +1,11 @@
-public class Main {
-2 public static void main(String[] args) {
-        3 Adder adder = new Adder();
-        4 System.out.println(adder.add(1, 2));
-        5
-        6 Subtractor subtractor = new Subtractor();
-        7
-        8 System.out.println(subtractor.subtract(6, 3));
-        9 }
+ // TODO: musimy dodac brakujace klasy!
+2
+3 public class Main {
+4 public static void main(String[] args) {
+5 Adder adder = new Adder();
+6 System.out.println(adder.add(1, 2));
+7
+8 Subtractor subtractor = new Subtractor();
+9 System.out.println(subtractor.subtract(6, 3));
 10 }
+11 }
